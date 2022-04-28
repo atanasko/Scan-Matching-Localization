@@ -32,13 +32,13 @@ CARLA simulator.
     # cmake ../
     # make
 
-### 6. Launch the simulator in on terminal tab
+### 6. Launch the simulator in one terminal tab
 
 Navigate to the parent directory 
 
     # ./run-carla.sh
 
-### 7. Run the project code
+### 7. Run the project code in other terminal tab
 
 In the build directory
 
