@@ -19,26 +19,31 @@ CARLA simulator.
 
     # cp rcplib.tgz ./build
 
-### 3. Navigate to the build directory
+### 3. Copy map.pcd and map_loop.pcd to the build directory
+
+    # cp map.pcd ./build
+    # cp map_loop.pcd ./build
+
+### 4. Navigate to the build directory
 
     # cd build
 
-### 4. Unarchive rcplib.tgz archive
+### 5. Unarchive rcplib.tgz archive
 
     # tar -xvvzf rcplib.tgz
 
-### 5.  Compile the code
+### 6.  Compile the code
 
     # cmake ../
     # make
 
-### 6. Launch the simulator in one terminal tab
+### 7. Launch the simulator in one terminal tab
 
 Navigate to the parent directory 
 
     # ./run-carla.sh
 
-### 7. Run the project code in other terminal tab
+### 8. Run the project code in other terminal tab
 
 In the build directory
 
